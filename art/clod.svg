@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="کلوخ">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d7a05a"/>
+      <stop offset="100%" stop-color="#9f6432"/>
+    </linearGradient>
+  </defs>
+  <path d="M34 110c-8-10-10-26-2-39 7-13 24-21 38-19 8-18 31-31 53-29 22 2 42 16 50 34 17-2 35 5 44 20 12 20 10 48-6 65-13 14-34 22-53 18-10 9-24 14-39 14-17 0-31-6-42-16-16 2-32-2-43-13-10-9-14-22-12-35 2 1 8 2 12 0z" fill="url(#g1)" stroke="#6d3f1d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M84 82c10-8 27-10 39-2M126 70c8 8 10 23 2 34M66 119c10 8 30 10 44 6M161 103c7 8 19 12 31 11" fill="none" stroke="#edc386" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+</svg>

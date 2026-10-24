@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 315" role="img" aria-label="معدن‌چی پیرمرد جذاب">
+  <defs>
+    <radialGradient id="gGlow" cx="50%" cy="22%" r="58%">
+      <stop offset="0%" stop-color="#fff1ae" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#fff1ae" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gHat" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8d565"/>
+      <stop offset="100%" stop-color="#b97917"/>
+    </linearGradient>
+    <linearGradient id="gSkin" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f1c9a6"/>
+      <stop offset="100%" stop-color="#d18a62"/>
+    </linearGradient>
+    <linearGradient id="gVest" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5ad2d0"/>
+      <stop offset="100%" stop-color="#2a667f"/>
+    </linearGradient>
+    <linearGradient id="gShirt" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eaf6ff"/>
+      <stop offset="100%" stop-color="#c9d7e2"/>
+    </linearGradient>
+    <linearGradient id="gBeard" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d2dae3"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="254" rx="95" ry="34" fill="#17142f" opacity=".22"/>
+  <circle cx="150" cy="95" r="92" fill="url(#gGlow)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 90c9-32 37-56 74-56 36 0 67 22 80 56l-26 10H115z" fill="url(#gHat)" stroke="#244064" stroke-width="6"/>
+    <rect x="68" y="95" width="186" height="39" rx="19" fill="#de9f2e" stroke="#244064" stroke-width="6"/>
+    <circle cx="208" cy="114" r="13" fill="#fff2a0" stroke="#244064" stroke-width="5"/>
+    <path d="M199 114h18M208 105v18" stroke="#e5a600" stroke-width="4"/>
+    <path d="M104 121c0-15 8-30 21-39 12-8 25-13 40-13 16 0 30 5 42 15 13 10 20 24 20 40v35c0 20-8 36-23 49-13 11-31 18-49 18-20 0-38-6-52-20-13-13-20-29-20-47z" fill="url(#gSkin)" stroke="#915f44" stroke-width="4"/>
+    <path d="M108 120c8-38 32-61 62-61 22 0 43 10 56 28 8 11 12 23 12 37-14-9-27-13-42-12-16 1-25 10-39 12-21 3-38 0-49-4z" fill="#e8eef6" opacity=".65" stroke="none"/>
+    <path d="M125 139c4-7 11-11 20-11 9 0 16 4 21 11" fill="#fff" stroke="#9aa7b6" stroke-width="3"/>
+    <path d="M165 139c4-7 11-11 20-11 9 0 16 4 21 11" fill="#fff" stroke="#9aa7b6" stroke-width="3"/>
+    <ellipse cx="138" cy="145" rx="12" ry="11" fill="#ffffff"/>
+    <ellipse cx="183" cy="145" rx="12" ry="11" fill="#ffffff"/>
+    <circle cx="139" cy="146" r="5.8" fill="#243554"/>
+    <circle cx="182" cy="146" r="5.8" fill="#243554"/>
+    <circle cx="137" cy="144" r="1.8" fill="#fff"/>
+    <circle cx="180" cy="144" r="1.8" fill="#fff"/>
+    <path d="M128 128c5-5 12-7 20-6" fill="none" stroke="#7e868f" stroke-width="4"/>
+    <path d="M173 122c8-2 15 0 20 6" fill="none" stroke="#7e868f" stroke-width="4"/>
+    <path d="M157 148q-3 10-1 20" fill="none" stroke="#a76a4d" stroke-width="3"/>
+    <path d="M146 173c8 7 18 7 26 0" fill="none" stroke="#8d4f3a" stroke-width="4"/>
+    <path d="M119 174c4 26 21 52 40 61 14 7 27 6 39-1 15-10 26-31 29-58-12 6-27 10-39 10-27 0-48-4-69-12z" fill="url(#gBeard)" stroke="#aeb8c4" stroke-width="3"/>
+    <path d="M136 191c9 8 17 11 25 11 8 0 17-4 25-12" fill="none" stroke="#bdc5cf" stroke-width="3"/>
+    <circle cx="122" cy="159" r="5" fill="#d98d7c" opacity=".5" stroke="none"/>
+    <circle cx="198" cy="159" r="5" fill="#d98d7c" opacity=".5" stroke="none"/>
+    <path d="M98 207c13-11 30-17 52-17 24 0 43 6 56 18l11 58H84z" fill="url(#gVest)" stroke="#234463" stroke-width="5"/>
+    <path d="M115 207c9-9 21-14 35-14 14 0 28 5 37 14l-4 58h-66z" fill="url(#gShirt)" stroke="#b8c6d4" stroke-width="3"/>
+    <path d="M87 211l-12 16 19 14" fill="#f0be50" stroke="#9a6721" stroke-width="4"/>
+    <path d="M211 211l12 16-19 14" fill="#f0be50" stroke="#9a6721" stroke-width="4"/>
+    <path d="M108 238c13 8 28 12 44 12 17 0 33-4 47-12" fill="none" stroke="#9ef3e7" stroke-width="4" opacity=".6"/>
+  </g>
+  <g transform="translate(32 128) rotate(-10)">
+    <path d="M0 18c10-11 26-14 40-7 8 4 12 15 8 23-7 12-24 18-39 14C-1 44-6 28 0 18z" fill="#f1b942" stroke="#a46216" stroke-width="4"/>
+    <path d="M11 8L22 0l19 18-9 8z" fill="#ffda6f" stroke="#b88420" stroke-width="4"/>
+  </g>
+</svg>

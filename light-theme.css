@@ -1,0 +1,95 @@
+/* DAYLIGHT MINE — Gold Quest. Shared visual language across all four editions.
+   Sky blue / warm sandstone / teal controls / golden treasure. */
+:root{
+  color-scheme:light;
+  --purple:#486F91;--turquoise:#138E92;--gold:#B97105;--muted:#5D7286;--panel:#FFFFFF;
+  color:#243D53;background:#EEF7FC;
+}
+body{color:#243D53;background:linear-gradient(135deg,#E8F7FF 0%,#F7FBFE 54%,#FFF7E8 100%)!important}
+.app{background:transparent!important}
+.topbar{background:rgba(255,255,255,.94)!important;border-bottom:1px solid #DAE8F0!important;box-shadow:0 4px 18px #2E729510;color:#28445C!important}
+.brand{color:#27415B!important}
+.brand-logo{filter:drop-shadow(0 3px 8px #286C9E20)!important}
+.icon-button{background:#EDF7FD!important;color:#2E6280!important;border:1px solid #CFE4EF!important;box-shadow:inset 0 1px #fff!important}
+.icon-button:hover:not(:disabled){background:#DBF0FA!important;color:#17425C!important;border-color:#8BC7D7!important}
+.icon-button:focus-visible,.answer:focus-visible,.primary:focus-visible{outline:3px solid #198F95!important;outline-offset:2px}
+.play-layout{background:transparent!important}
+.game-panel{border:1px solid #CBDFEC!important;box-shadow:0 14px 45px #4883A526,0 2px 8px #1F648712!important;background:#F3F9FC!important;border-radius:17px!important}
+.game-topline{background:#F8FCFE!important;color:#3A5870!important;border-bottom:1px solid #DDEBF3!important}
+.game-panel .hud{background:linear-gradient(90deg,#FBFDFE,#EBF7FC)!important;border-bottom:1px solid #D8EAF2!important;color:#284A5F!important}
+.hud small{color:#567388!important;font-weight:700!important}
+.hud strong{color:#204C65!important;text-shadow:none!important}
+.hud svg{color:#118F99!important}
+.hud-goal{border-color:#D5E5EE!important}
+.stage{background:#E9F4F9 url('./art/cave-daylight.svg') center/100% 100% no-repeat!important}
+.scene-title{filter:drop-shadow(0 6px 8px #426B9B28)!important}
+.scene-logo{filter:drop-shadow(0 10px 9px #4B69852C)!important}
+.scene-title p{color:#34546C!important;text-shadow:0 1px 1px #FFFFFF!important}
+.primary,.start-button,.quiz-continue-button{
+  color:#fff!important;
+  background:linear-gradient(125deg,#117F90 0%,#1475A6 100%)!important;
+  border:1px solid #147B99!important;
+  box-shadow:0 4px 0 #0D5D77,0 9px 22px #0B7A9730,inset 0 1px 0 #FFFFFF45!important;
+  font-weight:850!important;
+}
+.primary:hover:not(:disabled),.start-button:hover:not(:disabled),.quiz-continue-button:hover:not(:disabled){
+  background:linear-gradient(125deg,#0F778A,#126F9B)!important;
+  box-shadow:0 4px 0 #0D5D77,0 11px 24px #0B7A9740!important;
+}
+.secondary{background:#EFF8FC!important;color:#294D64!important;border:1px solid #C7DDE9!important;font-weight:700!important}
+.secondary:hover{background:#DFF1F7!important}
+.text-button{color:#3D7388!important}
+.text-button:hover{color:#135D77!important}
+.modal-scrim{background:rgba(36,65,87,.46)!important;backdrop-filter:blur(8px)!important;-webkit-backdrop-filter:blur(8px)!important}
+.modal-card{
+  background:linear-gradient(170deg,#FFFFFF 0%,#F7FBFE 64%,#EFF8FB 100%)!important;
+  border:1px solid #C7E0EB!important;
+  box-shadow:0 25px 80px #123C5B46,0 3px 12px #285F7A24,inset 0 1px #FFFFFF!important;
+  color:#233F55!important;
+}
+.modal-card h2,.question-text{color:#203A52!important;text-shadow:none!important}
+.modal-description{color:#4F6D82!important}
+.quiz-heading{color:#35546A!important}
+.quiz-category{color:#0C7380!important;background:#E8F7F8!important;border:1px solid #B9E2E5!important;font-weight:750!important}
+.quiz-category svg{color:#0D8E98!important}
+.quiz-prize{color:#936005!important;font-weight:800!important}
+.quiz-kicker{color:#52778A!important}
+.question-text{font-weight:800!important}
+.answers .answer{
+  background:#F1F8FC!important;border:1.5px solid #D0E2EB!important;color:#29475D!important;
+  box-shadow:0 2px 5px #44758B0B!important;transition:background .18s,border-color .18s,box-shadow .18s,transform .16s!important;
+}
+.answers .answer:hover:not(:disabled){background:#E4F5FA!important;border-color:#6DB9C5!important;box-shadow:0 3px 12px #3F9CB41A!important}
+.answer-letter{background:#FFFFFF!important;border:1px solid #C5DBE7!important;color:#286784!important;font-weight:850!important}
+.answers .answer:disabled{opacity:1!important}
+.answers .answer.correct{background:#DDF6E9!important;border-color:#62BA91!important;color:#145A43!important;box-shadow:0 2px 10px #27AA6730!important}
+.answers .answer.wrong{background:#FFF0EA!important;border-color:#E8A089!important;color:#8D3D2B!important;box-shadow:0 2px 10px #C7796320!important}
+.answers .answer.correct .answer-letter{color:#16684B!important;border-color:#8ECCAB!important;background:#EFFBF3!important}
+.answers .answer.wrong .answer-letter{color:#9B4634!important;border-color:#EBC0AF!important;background:#FFF7F2!important}
+.quiz-feedback{border-top:1px solid #DEEBF1!important;color:#496C80!important}
+.quiz-feedback.success{color:#147858!important;font-weight:750!important}
+.quiz-feedback.gentle{color:#A65D2E!important;font-weight:750!important}
+.quiz-continue-button{margin-top:16px!important}
+.quiz-reference-image{background:#FFFFFF!important;border:1px solid #D8E8EF!important;padding:4px!important;box-shadow:0 3px 12px #2B60801A!important}
+.result-emblem{background:radial-gradient(#DAEDF6,#FFFFFF 68%)!important;color:#54809A!important}
+.result-emblem.won{color:#C68A19!important;background:radial-gradient(#FFF1C9,#FFFFFF 70%)!important;filter:none!important}
+.result-stars{color:#9CB8C4!important}
+.result-stars .earned{color:#DDA52E!important}
+.result-score{background:#FFF8E9!important;border:1px solid #F1DBAD!important}
+.result-score small{color:#7D6550!important}
+.result-score strong{color:#9E6907!important}
+.result-stats b{color:#244D65!important}
+.result-stats span{color:#627A88!important}
+.result-stats>div+div{border-color:#D9E8EF!important}
+.loading{background:linear-gradient(160deg,#F0F9FD,#E4F4FB)!important;color:#2A7584!important}
+.loading svg{color:#C49A36!important}
+.side-panel{color:#29465B!important}
+/* Legibility for long Quranic quotations as well as image-based questions */
+.modal-card.wide{scrollbar-color:#A6CFDE #F0F8FB}
+.modal-card.wide .answer span[dir="auto"]{color:inherit!important}
+@media(max-width:760px){
+  .game-panel{border-radius:12px!important}
+  .modal-card{border-radius:20px!important}
+  .answers .answer{padding:12px!important}
+  .modal-card h2,.question-text{letter-spacing:0!important}
+}
